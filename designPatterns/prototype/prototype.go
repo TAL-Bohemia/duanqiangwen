@@ -45,4 +45,3 @@ func (s *HandlerManager) Get(name string) Handler {
 func (s *HandlerManager) Set(name string, prototype Handler) {
 	s.list[name] = prototype
 }
-
